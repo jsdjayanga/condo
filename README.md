@@ -6,21 +6,21 @@ Have you come across situations where your build tools suddenly stop working aft
 
 The Condo provides answers to the above questions. It uses docker images based build environments and gives you a simple set of commands to spin up, stop, and clean the build environments.
 
-###Prerequisite
+### Prerequisite
 Docker command-line tool
 
-###How to install
+### How to install
 Just run the below simple command
 ```bash
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/jsdjayanga/condo/main/scripts/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/jsdjayanga/condo/main/scripts/install.sh)"
 ```
 
-#####The installation script will install the following.
+##### The installation script will install the following.
 1. Copy condo.sh, json.sh and unintall.sh scripts to /usr/local/Condo/
 2. Copy the condo.json file to ~/.condo/
 3. Create a symlink in /usr/local/bin/condo for easy execution
 
-###Configuration
+### Configuration
 1. The configuration file resides in the ~/.condo/ directory
 2. The "name" and "image" are the two mandatory configurations for an environment
 
@@ -59,7 +59,7 @@ Just run the below simple command
     }
 ```
 
-###Commands
+### Commands
 
 1. List build environments
 ```bash
@@ -83,12 +83,12 @@ Just run the below simple command
 
 
 
-###Uninstall
+### Uninstall
 Simply run the following command to uninstall the Condo
 ```bash
     /bin/bash /usr/local/Condo/uninstall.sh
 ```
 
 
-###License
+### License
 - Apache-2.0
