@@ -1,0 +1,10 @@
+[
+    {
+        "name": "devj11",
+        "image": "jsdjayanga/build-environments:bej11-v1"
+    },
+    {
+        "name": "devj8",
+        "image": "jsdjayanga/build-environments:bej8-v1"
+    }
+]
